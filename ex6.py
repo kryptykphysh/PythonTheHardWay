@@ -35,7 +35,10 @@ print w + e
 # Go through this program and write a comment above each line explaining it.
 
 # Find all the places where a string is put inside a string. There are four places.
+# Line 8 (twice), 15 and 16.
 
 # Are you sure there's only four places? How do you know? Maybe I like lying.
+# Pretty sure. the others are decimals or raw boolean.
 
 # Explain why adding the two strings w and e with + makes a longer string.
+# It's concatenation and it's what happens when you call the + method on a string.
