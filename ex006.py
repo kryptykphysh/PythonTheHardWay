@@ -1,4 +1,4 @@
-# ex6.py
+# ex006.py
 
 # Setting variable values to be interpolated in to strings.
 x = "There are %d types of people." % 10

@@ -1,4 +1,4 @@
-# ex5.py
+# ex005.py
 # -- coding: utf-8 -- 
 
 name = 'Zed A. Shaw'

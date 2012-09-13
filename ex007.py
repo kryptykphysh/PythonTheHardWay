@@ -1,4 +1,4 @@
-# ex7.py
+# ex007.py
 
 print "Mary had a little lamb."
 print "Its fleece was white as %s." % 'snow'

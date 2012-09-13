@@ -1,4 +1,4 @@
-# ex3.py
+# ex003.py
 
 # Prints some text.
 print "I will now count my chickens:"
