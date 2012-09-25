@@ -38,7 +38,7 @@ print "Florida has: ", cities[states['Florida']]
 # print every state abbreviation
 print '-' * 10
 for state, abbrev in states.items():
-	print "%s in abbreivated %s" % (state, abbrev)
+	print "%s in abbreviated %s" % (state, abbrev)
 
 # print every city in every state
 print '-' * 10
@@ -61,3 +61,28 @@ if not state:
 # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print "The city for the state 'TX' is: %s" % city
+
+# Extra Credit
+# Do this same kind of mapping with cities and states/regions in 
+# your country, or or some other country.
+counties = {
+	'Antrim': 'AN',
+	'Armagh': 'AR',
+	'Down': 'DO',
+	'Fermanagh': 'FE',
+	'Londonderry': 'LO',
+	'Tyrone': 'TY'
+}
+
+towns = {
+	'AN': 'Ballymena',
+	'AR': 'Newry',
+	'DO': 'Bangor',
+	'DO': 'Dundonald',
+	'FE': 'Enniskillen',
+	'LO': 'Magherafelt',
+	'TY': 'Dungannon'
+}
+
+print "\nCounty Fermanagh has: ", (towns[counties['Fermanagh']])
+print "County Down has: ", (towns[counties['Down']])
